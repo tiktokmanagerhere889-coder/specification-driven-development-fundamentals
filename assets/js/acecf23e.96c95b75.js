@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkspecification_driven_development_fundamentals=globalThis.webpackChunkspecification_driven_development_fundamentals||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/specification-driven-development-fundamentals/blog","blogTitle":"Blog","authorsListPath":"/specification-driven-development-fundamentals/blog/authors"}')}}]);
