@@ -1,10 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const { themes } = require('prism-react-renderer');
-const lightCodeTheme = themes.github;
-const darkCodeTheme = themes.dracula;
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Specification-Driven Development Fundamentals',
@@ -102,10 +98,6 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Specification-Driven Development Fundamentals. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
       colorMode: {
         defaultMode: 'light',
