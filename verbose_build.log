@@ -1,0 +1,248 @@
+﻿
+> specification-driven-development-fundamentals@1.0.0 build
+> docusaurus build
+
+node.exe : [WARNING] 
+The `siteConfig.onBro
+kenMarkdownLinks` 
+config option is 
+deprecated and will 
+be removed in 
+Docusaurus v4.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([WARNIN   
+ G] The `... Docu    
+saurus v4.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Please migrate and 
+move this option to `
+siteConfig.markdown.h
+ooks.onBrokenMarkdown
+Links` instead.
+[INFO] [en] Creating an optimized production build...
+[WARNING] The `siteCo
+nfig.onBrokenMarkdown
+Links` config option 
+is deprecated and 
+will be removed in 
+Docusaurus v4.
+Please migrate and 
+move this option to `
+siteConfig.markdown.h
+ooks.onBrokenMarkdown
+Links` instead.
+[ERROR] Loading of 
+version failed for 
+version current
+
+[ERROR] Error: 
+Unable to build 
+website for locale 
+en.
+    at 
+tryToBuildLocale (C:\
+Users\ACER\OneDrive\D
+ocuments\Desktop\spec
+-driven-development\s
+pecification-driven-d
+evelopment-fundamenta
+ls\node_modules\@docu
+saurus\core\lib\comma
+nds\build\build.js:83
+:15)
+    at async C:\Users
+\ACER\OneDrive\Docume
+nts\Desktop\spec-driv
+en-development\specif
+ication-driven-develo
+pment-fundamentals\no
+de_modules\@docusauru
+s\core\lib\commands\b
+uild\build.js:35:9
+    at async 
+mapAsyncSequential (C
+:\Users\ACER\OneDrive
+\Documents\Desktop\sp
+ec-driven-development
+\specification-driven
+-development-fundamen
+tals\node_modules\@do
+cusaurus\utils\lib\js
+Utils.js:21:24)
+    at async 
+Command.build (C:\Use
+rs\ACER\OneDrive\Docu
+ments\Desktop\spec-dr
+iven-development\spec
+ification-driven-deve
+lopment-fundamentals\
+node_modules\@docusau
+rus\core\lib\commands
+\build\build.js:34:5)
+    at async 
+Promise.all (index 0)
+    at async runCLI (
+C:\Users\ACER\OneDriv
+e\Documents\Desktop\s
+pec-driven-developmen
+t\specification-drive
+n-development-fundame
+ntals\node_modules\@d
+ocusaurus\core\lib\co
+mmands\cli.js:56:5)
+    at async file:///
+C:/Users/ACER/OneDriv
+e/Documents/Desktop/s
+pec-driven-developmen
+t/specification-drive
+n-development-fundame
+ntals/node_modules/@d
+ocusaurus/core/bin/do
+cusaurus.mjs:44:3 {
+  [cause]: Error: 
+Invalid sidebar file 
+at "sidebars.js".
+  These sidebar 
+document ids do not 
+exist:
+  - 01-intro
+  - 
+02-vague-code-problem
+  - 
+03-why-specs-matter
+  - 04-what-is-sdd
+  - 
+05-build-first-spec
+  - 06-shared-rules
+  - 07-reusable-intel
+ligence
+  - 
+08-designing-skills
+  - 09-framework-land
+scape
+  - 10-quiz
+  
+  Available document 
+ids are:
+  - build-first-spec
+  - designing-skills
+  - 
+framework-landscape
+  - intro
+  - quiz
+  - 
+reusable-intelligence
+  - shared-rules
+  - 
+vague-code-problem
+  - what-is-sdd
+  - why-specs-matter
+  
+      at Object.check
+SidebarsDocIds (C:\Us
+ers\ACER\OneDrive\Doc
+uments\Desktop\spec-d
+riven-development\spe
+cification-driven-dev
+elopment-fundamentals
+\node_modules\@docusa
+urus\plugin-content-d
+ocs\lib\sidebars\util
+s.js:245:19)
+      at 
+doLoadVersion (C:\Use
+rs\ACER\OneDrive\Docu
+ments\Desktop\spec-dr
+iven-development\spec
+ification-driven-deve
+lopment-fundamentals\
+node_modules\@docusau
+rus\plugin-content-do
+cs\lib\versions\loadV
+ersion.js:102:19)
+      at async 
+loadVersion (C:\Users
+\ACER\OneDrive\Docume
+nts\Desktop\spec-driv
+en-development\specif
+ication-driven-develo
+pment-fundamentals\no
+de_modules\@docusauru
+s\plugin-content-docs
+\lib\versions\loadVer
+sion.js:119:16)
+      at async 
+Promise.all (index 0)
+      at async 
+Object.loadContent (C
+:\Users\ACER\OneDrive
+\Documents\Desktop\sp
+ec-driven-development
+\specification-driven
+-development-fundamen
+tals\node_modules\@do
+cusaurus\plugin-conte
+nt-docs\lib\index.js:
+152:33)
+      at async C:\Use
+rs\ACER\OneDrive\Docu
+ments\Desktop\spec-dr
+iven-development\spec
+ification-driven-deve
+lopment-fundamentals\
+node_modules\@docusau
+rus\core\lib\server\p
+lugins\plugins.js:40:
+23
+      at async 
+Promise.all (index 0)
+      at async C:\Use
+rs\ACER\OneDrive\Docu
+ments\Desktop\spec-dr
+iven-development\spec
+ification-driven-deve
+lopment-fundamentals\
+node_modules\@docusau
+rus\core\lib\server\p
+lugins\plugins.js:146
+:25
+      at async 
+loadSite (C:\Users\AC
+ER\OneDrive\Documents
+\Desktop\spec-driven-
+development\specifica
+tion-driven-developme
+nt-fundamentals\node_
+modules\@docusaurus\c
+ore\lib\server\site.j
+s:155:45)
+      at async 
+buildLocale (C:\Users
+\ACER\OneDrive\Docume
+nts\Desktop\spec-driv
+en-development\specif
+ication-driven-develo
+pment-fundamentals\no
+de_modules\@docusauru
+s\core\lib\commands\b
+uild\buildLocale.js:3
+3:18)
+}
+[INFO] Docusaurus version: 3.9.2
+Node version: v22.18.0
